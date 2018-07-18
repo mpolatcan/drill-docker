@@ -9,7 +9,7 @@ script:
   
 notifications:
   - slack: 
-      boyp-enki:eXQqzTqvTrge4YyTeMsGTKW4
+      boyp-enki: eXQqzTqvTrge4YyTeMsGTKW4
   - email:
       on_success: never
       on_failure: never
