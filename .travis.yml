@@ -6,3 +6,10 @@ services:
 script:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   - make publish-drill
+  
+notifications:
+  - slack: 
+      boyp-enki:eXQqzTqvTrge4YyTeMsGTKW4
+  - email:
+      on_success: never
+      on_failure: never
